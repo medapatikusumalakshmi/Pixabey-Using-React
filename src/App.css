@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar css */
+nav{
+    background-color:rgba(128, 0, 128, 0.888);
+    width: 100%;
+    display: inline-block;
+    height: 70px;
+    position: relative;
+    font-weight: bold;
+    color: white;
+    
+}
+nav li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 30px;
+    font-family: var(--bs-font-sans-serif);
+}
+nav ul{
+
+    position: absolute;
+    top:25px;
+     margin-left: 60pc;
+}
+nav span{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-size: 1.2rem;
+}
+
+/* footer */
+#footer{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(128, 0, 128, 0.888);
+   color: white;
+    padding-top: 12px;
+    display: flex;
+    /* display: flex;
+    position: relative;
+    display: inline-block; */
+}
+#maindiv{
+    height: 330vh;
+    width: 100%;
+    
+    background-color: rgba(252, 204, 252, 0.419);
+    
+}
+#tx{
+    position: "absolute";
+    color: white;
+    text-align: center;
+    padding-top: 12%;
+}
+#bacimg{
+    background-image:linear-gradient(rgba(38, 18, 18, 0.185), rgba(158, 64, 155, 0.5)), url("https://cdn.pixabay.com/photo/2019/05/28/19/43/leaves-4235968_1280.jpg");
+    height: 550px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tx h1{
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+#tx p{
+    font-weight: bold;
+    font-weight: 1rem;
+    margin-bottom: 25px;
+    border: none;
+}
+#tx input{
+    height: 50px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+}
+#ic{
+    position: absolute;
+   right: 400px;
+   top: 325px;
+    color: black; 
+}
+#ren{
+    padding-left: 100px;
+    padding-top: 80px;
+}
+#svg{
+    height: 100%;
+    width: 80px;
+    display: inline-block;
+    margin-right: 500px;
+    margin-left: 20px;
+
+}
+#footer h1{
+    display: inline-block;
+}
+
+.mainlog{
+    height: 250px;
+    width: 500px;
+    border: 2px solid;
+    position: absolute;
+    left: 32%;
+     top: 25%;
+     border-radius: 25px;
+     padding: 15px;
+     color: white;
+}
+#wholelog{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-50deg,blue,purple);
+    position: relative;
+}
+.mainlog h2{
+    margin-bottom: 10px;
+}
+
+.mainlog input{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.mainlog button{
+    height: 25px;
+    width: 20%;
+    border-radius: 8px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.mainlog p{
+    margin-top: 3%;
+}
+.mainlog p,a{
+    color: white;
+}
+#wholelog img{
+    height: 300px;
+    width: 300px;
+    position:absolute ;
+    left: 55%;
+    top: 34%;
+    z-index: 1;
+}
+#us{
+    margin-right: 30px;
+}
+#em{
+    margin-right: 70px;
+}
+#pa{
+    margin-right: 40px;
+}
+#uniqimg{
+   position:absolute; 
+   height: 500px;
+   width: 500px;
+   top: 15%;
+   left: 34%;
+}
+#unqmain{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: bisque;
+}
